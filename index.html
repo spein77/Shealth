@@ -500,6 +500,9 @@ placeholder="Example: fever, headache, cough">
 
 <button onclick="speakResult()">
 🔊 SPEAK RESULT
+ <button onclick="upgradePremium()">
+⭐ UPGRADE TO PREMIUM
+ </button> 
 </button>
 
 </div>
@@ -928,6 +931,31 @@ if('serviceWorker' in navigator){
 
 navigator.serviceWorker.register('service-worker.js');
 
+}
+  async function upgradePremium(){
+
+if(!currentUserEmail){
+  alert("Login first");
+  return;
+}
+
+const { error } = await client
+.from('Premium')
+.insert([
+{
+email: currentUserEmail,
+premium: true,
+plan: "PRO",
+payment_method: "PENDING"
+}
+]);
+
+if(error){
+  alert(error.message);
+  return;
+}
+
+alert("Premium request submitted successfully");
 }
 
 </script>
