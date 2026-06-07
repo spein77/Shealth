@@ -498,13 +498,13 @@ placeholder="Example: fever, headache, cough">
 🔍 CHECK DISEASE
 </button>
 
-<button onclick="speakResult()">
+  <button onclick="speakResult()">
 🔊 SPEAK RESULT
+</button>
+
 <button onclick="upgradePremium()">
 ⭐ UPGRADE TO PREMIUM
 </button>
-</button>
-
 </div>
 
 <!-- LOADER -->
@@ -919,20 +919,7 @@ ${item.symptoms}
 
 }
 
-async function logoutUser(){
-
-await client.auth.signOut();
-
-location.reload();
-
-}
-
-if('serviceWorker' in navigator){
-
-navigator.serviceWorker.register('service-worker.js');
-
-}
-  async function upgradePremium(){
+async function upgradePremium(){
 
 if(!currentUserEmail){
   alert("Login first");
@@ -944,7 +931,7 @@ const { error } = await client
 .insert([
 {
 email: currentUserEmail,
-premium: true,
+premium: false,
 plan: "PRO",
 payment_method: "PENDING"
 }
@@ -955,9 +942,31 @@ if(error){
   return;
 }
 
-alert("Premium request submitted successfully");
-}
+alert(`⭐ PREMIUM MEMBERSHIP
 
+✅ Unlimited AI Consultation
+
+✅ Voice Medical Assistant
+
+✅ Medicine Recommendations
+
+✅ Disease Risk Prediction
+
+✅ PDF Medical Reports
+
+✅ No Ads
+
+💰 Tsh 5,000 / Month
+
+Lipa kupitia Mix by Yas
+
+Namba: 0656591574
+
+Baada ya kulipa tuma Transaction ID kwa admin.
+
+Status: Payment Pending`);
+
+}
 </script>
 
 </body>
