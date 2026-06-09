@@ -1,12 +1,9 @@
-
 <!-- ================= ULTIMATE AI MEDICAL APP ================= -->
 <!-- INSTALLABLE APP + AI + VOICE + MOBILE STYLE -->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7905752130054357"
-     crossorigin="anonymous"></script>  
 
 <meta charset="UTF-8">
 
@@ -388,7 +385,43 @@ border-radius:15px;
 margin-top:10px;
 
 }
+.medical-slider{
 
+display:flex;
+gap:10px;
+
+overflow:hidden;
+
+padding:10px;
+
+background:white;
+
+}
+
+.medical-slider img{
+
+width:220px;
+height:120px;
+
+object-fit:cover;
+
+border-radius:15px;
+
+animation:slideMove 15s linear infinite;
+
+}
+
+@keyframes slideMove{
+
+from{
+transform:translateX(100vw);
+}
+
+to{
+transform:translateX(-1200px);
+}
+
+}
 </style>
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#2563eb">
@@ -407,9 +440,18 @@ margin-top:10px;
 📢 Sponsored Ads
 </p>
 
-<img
-src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=1200&auto=format&fit=crop"
-width="100%">
+<img 
+src="https://i.ibb.co/bjndHcMj/IMG-20260603-WA0003.jpg"
+alt="Sponsor Logo"
+style="
+width:100%;
+height:220px;
+object-fit:contain;
+background:white;
+border-radius:12px;
+display:block;
+"
+>
 
 </div>
 
@@ -417,14 +459,26 @@ width="100%">
 
 <div class="splash" id="splash">
 
-<img src="https://cdn-icons-png.flaticon.com/512/2785/2785482.png">
+<img
+src="https://cdn-icons-png.flaticon.com/512/387/387561.png"
+class="doctor-cartoon">
 
-<h1>AI MEDICAL ASSISTANT</h1>
+<h1>🩺 SMATIBABU</h1>
 
 <p>Loading Smart Healthcare...</p>
 
 </div>
+<div class="medical-slider">
 
+<img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=1200&auto=format&fit=crop">
+
+<img src="https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=1200&auto=format&fit=crop">
+
+<img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?q=80&w=1200&auto=format&fit=crop">
+
+<img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=1200&auto=format&fit=crop">
+
+</div>
 <!-- TOP BAR -->
 
 <div class="top-bar">
@@ -1139,4 +1193,4 @@ alert("✅ Payment request submitted successfully.");
 </script>
 
 </body>
-</html>
+     </html>
