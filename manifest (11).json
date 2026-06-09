@@ -1,0 +1,42 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "minimal-ui",
+  "name": "SMATIBABU",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "SMATIBABU",
+  "start_url": "https://shealth-ruddy.vercel.app",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2785/2785482.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "isSquare": true,
+      "isPng": true,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 512,
+      "is512x512": true,
+      "is256x256": false,
+      "is192x192": false
+    },
+    {
+      "src": "https://spein77.github.io/Shealth/icon-192.png",
+      "isSquare": false,
+      "isPng": true,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 0,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
+    }
+  ],
+  "categories": [
+    "health",
+    "health &amp; fitness",
+    "medical"
+  ]
+}
