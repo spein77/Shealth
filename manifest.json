@@ -10,7 +10,7 @@
   "theme_color": "#2563eb",
   "icons": [
     {
-      "src":"/icon-192.png",
+      "src":"IMG-20260601-WA0001 (1).jpg"
       "type": "image/png",
       "sizes": "512x512",
       "isSquare": true,
@@ -23,7 +23,7 @@
       "is192x192": false
     },
     {
-      "src": "/icon-192.png",
+      "src":" IMG-20260601-WA0001 (1).jpg",
       "isSquare": false,
       "isPng": true,
       "isWebp": false,
