@@ -1,42 +1,21 @@
 {
-"background_color": "#ffffff",
-  "dir": "ltr",
+  "name": "AI Medical Assistant",
+  "short_name": "Medical AI",
+  "start_url": "./",
   "display": "standalone",
-  "name": "SMATIBABU",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "SMATIBABU",
-  "start_url": "/",
+  "background_color": "#0f172a",
   "theme_color": "#2563eb",
+  "orientation": "portrait",
   "icons": [
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/2785/2785482.png",
-      "type": "image/png",
-      "sizes": "512x512",
-      "isSquare": true,
-      "isPng": true,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 512,
-      "is512x512": true,
-      "is256x256": false,
-      "is192x192": false
+      "src": "IMG-20260603-WA0003.jpg",
+      "sizes": "192x192",
+      "type": "image/png"
     },
     {
-      "src": "https://spein77.github.io/Shealth/icon-192.png",
-      "isSquare": false,
-      "isPng": true,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 0,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": false
+      "src": "IMG-20260601-WA0001.jpg",
+      "sizes": "512x512",
+      "type": "image/png"
     }
-  ],
-  "categories": [
-    "health",
-    "health &amp; fitness",
-    "medical"
   ]
 }
