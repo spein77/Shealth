@@ -1,9 +1,9 @@
-const CACHE_NAME = "medical-ai-v1";
+const CACHE_NAME = "smatibabu-v1";
 
 const urlsToCache = [
-  "./",
-  "./index.html",
-  "./manifest.json"
+  "/",
+  "/index.html",
+  "/manifest.json"
 ];
 
 self.addEventListener("install", event => {
