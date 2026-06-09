@@ -24,7 +24,9 @@
     },
     {
       "src":" IMG-20260601-WA0001 (1).jpg",
-      "isSquare": false,
+      "type":"image/png",
+      "size":"192x192",
+      "Square": false,
       "isPng": true,
       "isWebp": false,
       "isJpg": false,
